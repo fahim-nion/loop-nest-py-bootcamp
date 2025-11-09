@@ -8,3 +8,5 @@ a multi line
 comment
 '''
 
+#Variables-->
+#variable is a name that stores different kinds of data
