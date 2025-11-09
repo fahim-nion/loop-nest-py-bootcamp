@@ -38,3 +38,16 @@ y = 5
 sum = x+y
 print(sum)
 
+# p = int(input("enter something"))
+
+
+#-------------------------------------
+'''Data Types'''
+x = 10 #int data type <class 'int'>
+y = 20.5 # float <class 'str'>
+
+y_complex = complex(y)
+z = 2j #<class 'complex'>
+
+print(type(z))
+print(type(y_complex))
