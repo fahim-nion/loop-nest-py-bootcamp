@@ -33,4 +33,5 @@ print(y.strip()) #only removes spaces from front and back
 z = "Zohraan Mamdani"
 print(z.replace("Z","M"),z.replace("M","Z"))
 
-m = "Hello Wo"
+m = "Hello, World"
+print(m.split(","))
