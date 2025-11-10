@@ -35,3 +35,12 @@ print(z.replace("Z","M"),z.replace("M","Z"))
 
 m = "Hello, World"
 print(m.split(","))
+
+#string concat
+
+p = "Hello"
+q = "World!"
+
+print(p+" "+q)
+
+print(f"{p} {q}")
