@@ -47,3 +47,9 @@ print(f"{p} {q}")
 
 
 #----------boolean------------------
+
+#returns True or False
+
+var1 = True
+var2 = False
+
