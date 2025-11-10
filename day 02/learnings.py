@@ -44,3 +44,6 @@ q = "World!"
 print(p+" "+q)
 
 print(f"{p} {q}")
+
+
+#----------boolean------------------
