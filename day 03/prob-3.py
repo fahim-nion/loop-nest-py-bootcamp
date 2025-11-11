@@ -10,3 +10,10 @@ numbers = [1, 2, 2, 3, 4, 4, 5]
 num = set(numbers)
 
 print(list(num))
+
+'''
+output:
+
+[1, 2, 3, 4, 5]
+
+'''
