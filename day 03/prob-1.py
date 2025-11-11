@@ -14,3 +14,9 @@ list2 = [4, 1, 6]
 list1.extend(list2)
 list1.sort()
 print(list1)
+
+'''
+output:
+[1, 2, 4, 6, 7, 9]
+
+'''
