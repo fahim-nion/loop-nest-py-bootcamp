@@ -13,3 +13,10 @@ friend_2 = {"photography", "traveling", "gaming"}
 common = friend_1 & friend_2
 
 print(common)
+
+'''
+output:
+
+{'gaming', 'traveling'}
+
+'''
