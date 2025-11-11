@@ -11,3 +11,16 @@ Task:
 """
 
 '''
+
+profile = {}
+
+profile["username"] = "tech_wizard"
+profile["followers"] = 1500
+
+print(profile)
+
+'''
+output
+
+{'username': 'tech_wizard', 'followers': 1500}
+'''
