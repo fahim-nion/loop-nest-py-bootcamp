@@ -12,3 +12,11 @@ fruits = ["apple", "banana", "mango", "orange"]
 fruits[2] = "grape"
 
 print(fruits)
+
+
+'''
+output:
+
+['apple', 'banana', 'grape', 'orange']
+
+'''
