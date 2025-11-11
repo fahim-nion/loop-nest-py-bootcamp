@@ -17,3 +17,17 @@ student = {
     }
 
 print(student["grade"])
+
+student["age"] = 18
+
+print(student)
+
+
+'''
+output:
+
+A
+
+{'name': 'Ayaan', 'age': 18, 'grade': 'A'}
+
+'''
