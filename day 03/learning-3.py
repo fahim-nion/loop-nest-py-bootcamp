@@ -22,3 +22,7 @@ myl2.remove(0)
 myl3 = [3,4,2,5,6,1,5,0]
 myl3.sort()
 print(myl3)
+
+
+#--------------tuple---------
+mytup = ("a","b","v")
