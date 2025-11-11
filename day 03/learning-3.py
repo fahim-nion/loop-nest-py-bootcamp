@@ -26,3 +26,4 @@ print(myl3)
 
 #--------------tuple---------
 mytup = ("a","b","v")
+#for updating you will make it a list and then chng and again make it a tuple
