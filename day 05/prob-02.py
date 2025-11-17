@@ -5,8 +5,8 @@ Example:
 calculate_area(5, 3) ➞ 15'''
 
 def calculate_area(l,w):
-  area = l*w
-  return area
+    area = l*w
+    return area
 
 
 print(calculate_area(3,5))

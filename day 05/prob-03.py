@@ -6,11 +6,10 @@ check_even_odd(10) ➞ "Even"
 check_even_odd(7)  ➞ "Odd" '''
 
 def check_even_odd(val):
-  if val % 2==0:
-    print("Even")
-  else:
-    print("Odd")
-
+    if val % 2==0:
+        print("Even")
+    else:
+        print("Odd")
 
 check_even_odd(10)
 check_even_odd(7)
