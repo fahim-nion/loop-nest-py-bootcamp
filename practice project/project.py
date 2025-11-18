@@ -14,10 +14,10 @@ while True:
         '''
     )
     opt = int(input("Enter your choice: "))
-    fir = int(input("Enter your first number:"))
-    sec = int(input("Enter your second number:"))
+    fir = float(input("Enter your first number:"))
+    sec = float(input("Enter your second number:"))
     if opt == 1:
-        print(f"Result: {addition(fir,sec)}")
+        print(f"Result: {round(addition(fir,sec),2)}")
         choice = input('''Do you want to continue? (yes/no): yes
                         ''')
         if choice.lower() == "yes":
@@ -25,7 +25,7 @@ while True:
         else:
             break
     if opt == 2:
-        print(f"Result: {subtraction(fir,sec)}")
+        print(f"Result: {round(subtraction(fir,sec),2)}")
         choice = input('''Do you want to continue? (yes/no): yes
                         ''')
         if choice.lower() == "yes":
@@ -33,7 +33,13 @@ while True:
         else:
             break
     if opt == 3:
-        multiplication(fir,sec)
+        print(f"Result: {round(multiplication(fir,sec),2)}")
+        choice = input('''Do you want to continue? (yes/no): yes
+                        ''')
+        if choice.lower() == "yes":
+            continue
+        else:
+            break
     if opt == 1:
         division(fir,sec)
     if opt == 1:
@@ -49,3 +55,5 @@ def addition(a,b):
     return a+b
 def subtraction(a,b):
     return a-b
+def multiplication(a,b):
+    return a*b
