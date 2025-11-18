@@ -1,4 +1,4 @@
-import math 
+
 def addition(a,b):
     return a+b
 def subtraction(a,b):
@@ -30,6 +30,8 @@ while True:
         '''
     )
     opt = int(input("Enter your choice: "))
+    if opt == 8:
+        break
     fir = float(input("Enter your first number:"))
     sec = float(input("Enter your second number:"))
     if opt == 1:
@@ -57,8 +59,8 @@ while True:
         else:
             break
     if opt == 4:
-        if a/b == math.inf:
-            print("can not divided by zero")
+        if sec == 0:
+            print("Sorry! can not divided by zero")
         else:
             print(f"Result: {round(division(fir,sec),2)}")
             choice = input('''Do you want to continue? (yes/no): yes
@@ -91,6 +93,5 @@ while True:
             continue
         else:
             break
-    if opt == 8:
-        break
+
 
