@@ -15,5 +15,6 @@ while True:
     )
     opt = int(input("Enter your choice: "))
     fir = int(input("Enter your first number:"))
+    sec = int(input("Enter your second number:"))
     if opt == 1:
-        addi
+        addition(fir,sec)
