@@ -50,10 +50,14 @@ while True:
         maximum(fir,sec)
     if opt == 8:
         break
-    
+
+import math 
 def addition(a,b):
     return a+b
 def subtraction(a,b):
     return a-b
 def multiplication(a,b):
     return a*b
+def division(a,b):
+    if a/b == math.inf:
+        return("")
