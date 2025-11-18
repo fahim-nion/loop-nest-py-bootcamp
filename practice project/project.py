@@ -1,7 +1,7 @@
 while True:
     print("Welcome to Python Mini Calculator!")
     
-    opt = int(input(
+    print(
         '''Choose an option:
             1. Add
             2. Subtract
@@ -12,6 +12,8 @@ while True:
             7. Maximum number
             8. Exit
         '''
-    ))
+    )
+    opt = int(input("Enter your choice: "))
+    fir = int(input("Enter your first number:"))
     if opt == 1:
         addi
