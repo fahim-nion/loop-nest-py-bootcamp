@@ -3,7 +3,7 @@ Project Title: Python Mini Calculator
 Project Overview:
 এই ক্যালকুলেটর প্রজেক্টে শিক্ষার্থীরা ইউজার ইনপুট নিয়ে যোগ, বিয়োগ, গুণ, ভাগ, ভাগশেষ নির্ণয়, গড় বের করা এবং বড় সংখ্যাটি চিনে নেওয়ার মতো ফিচার বানাবে।
 Project Requirements:
-✅ Topics to Be Used:
+## ✅ Topics to Be Used:
 Variables
 Input/output
 Data types (int, float, string)
