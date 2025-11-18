@@ -40,8 +40,17 @@ while True:
             continue
         else:
             break
-    if opt == 1:
-        division(fir,sec)
+    if opt == 4:
+        if a/b == math.inf:
+            print("can not divided by zero")
+        else:
+            print(f"Result: {round(division(fir,sec),2)}")
+            choice = input('''Do you want to continue? (yes/no): yes
+                        ''')
+            if choice.lower() == "yes":
+                continue
+            else:
+                break
     if opt == 1:
         modulus(fir,sec)
     if opt == 1:
@@ -59,5 +68,4 @@ def subtraction(a,b):
 def multiplication(a,b):
     return a*b
 def division(a,b):
-    if a/b == math.inf:
-        return("")
+    return a/b
