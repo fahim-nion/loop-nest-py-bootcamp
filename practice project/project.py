@@ -1,3 +1,19 @@
+import math 
+def addition(a,b):
+    return a+b
+def subtraction(a,b):
+    return a-b
+def multiplication(a,b):
+    return a*b
+def division(a,b):
+    return a/b
+def modulus(a,b):
+    return a%b
+def avg(a,b):
+    avrg = (a+b)/2
+    return avrg
+
+
 while True:
     print("Welcome to Python Mini Calculator!")
     
@@ -51,21 +67,30 @@ while True:
                 continue
             else:
                 break
-    if opt == 1:
-        modulus(fir,sec)
-    if opt == 1:
-        avg(fir,sec)
-    if opt == 1:
-        maximum(fir,sec)
+    if opt == 5:
+        print(f"Result: {round(modulus(fir,sec),2)}")
+        choice = input('''Do you want to continue? (yes/no): yes
+                        ''')
+        if choice.lower() == "yes":
+            continue
+        else:
+            break
+    if opt == 6:
+        print(f"Result: {round(avg(fir,sec),2)}")
+        choice = input('''Do you want to continue? (yes/no): yes
+                        ''')
+        if choice.lower() == "yes":
+            continue
+        else:
+            break
+    if opt == 7:
+        print(f"Result:{max(fir,sec)}")
+        choice = input('''Do you want to continue? (yes/no): yes
+                        ''')
+        if choice.lower() == "yes":
+            continue
+        else:
+            break
     if opt == 8:
         break
 
-import math 
-def addition(a,b):
-    return a+b
-def subtraction(a,b):
-    return a-b
-def multiplication(a,b):
-    return a*b
-def division(a,b):
-    return a/b
