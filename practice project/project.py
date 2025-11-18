@@ -32,7 +32,7 @@ while True:
             continue
         else:
             break
-    if opt == 1:
+    if opt == 3:
         multiplication(fir,sec)
     if opt == 1:
         division(fir,sec)
