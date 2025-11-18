@@ -1,0 +1,60 @@
+Practice Project
+Project Title: Python Mini Calculator
+Project Overview:
+এই ক্যালকুলেটর প্রজেক্টে শিক্ষার্থীরা ইউজার ইনপুট নিয়ে যোগ, বিয়োগ, গুণ, ভাগ, ভাগশেষ নির্ণয়, গড় বের করা এবং বড় সংখ্যাটি চিনে নেওয়ার মতো ফিচার বানাবে।
+Project Requirements:
+✅ Topics to Be Used:
+Variables
+Input/output
+Data types (int, float, string)
+Type conversion
+Conditional Statements (if, elif, else)
+Loops (while or for)
+List, Tuple (for storing multiple numbers)
+Functions (def, return)
+Feature List (What to Build):
+Main Menu:
+Addition
+Subtraction
+Multiplication
+Division
+Modulus
+Average of multiple numbers
+Maximum number from list
+Exit
+Take User Input:
+Ask user to choose an option.
+Based on the option, ask user for numbers.
+Perform the selected calculation.
+Loop Until User Exits:
+After each operation, show the menu again until user selects “Exit”.
+Use Functions:
+Create separate functions for each operation like:
+def add(a, b):
+def subtract(a, b):
+def average(numbers):
+def find_max(numbers):
+Bonus Task (For Extra Practice):
+Validate user input (check if it’s number or not).
+Give error message on invalid input (like division by zero).
+Format result (2 decimal place output).
+Sample Output:
+Welcome to Python Mini Calculator!
+
+Choose an option:
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+5. Modulus
+6. Average of numbers
+7. Maximum number
+8. Exit
+
+Enter your choice: 1
+Enter first number: 10
+Enter second number: 5
+Result: 15
+
+Do you want to continue? (yes/no): yes
+...
