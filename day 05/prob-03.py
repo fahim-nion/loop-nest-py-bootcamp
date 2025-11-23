@@ -14,3 +14,9 @@ def check_even_odd(val):
 check_even_odd(10)
 check_even_odd(7)
 
+'''
+output:
+Even
+Odd
+
+'''
