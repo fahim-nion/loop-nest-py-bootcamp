@@ -7,3 +7,10 @@ greet("Tahsin")
 greet("Bob")
 greet(" Alice")
 
+'''
+output:
+
+Hello,Tahsin! Welcome to the Bootcamp.
+Hello,Bob! Welcome to the Bootcamp.
+Hello, Alice! Welcome to the Bootcamp.
+'''
