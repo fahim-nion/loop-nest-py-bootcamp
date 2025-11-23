@@ -10,3 +10,9 @@ def calculate_area(l,w):
 
 
 print(calculate_area(3,5))
+
+
+'''
+output:
+15
+'''
