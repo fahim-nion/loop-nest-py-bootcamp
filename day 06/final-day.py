@@ -21,3 +21,12 @@ Create a function called `calculate_grade()` that:
 ```
 
 '''
+
+
+def calculate_grade(name,marks){
+    grade_sheet = {}
+    avg = round((marks/3),2)
+    if avg>=80:
+        grade = "A"
+    elif avg
+}
