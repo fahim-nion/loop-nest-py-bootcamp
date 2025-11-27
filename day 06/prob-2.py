@@ -12,3 +12,8 @@ fruits = ['apple', 'banana', 'apple', 'orange', 'banana', 'kiwi']
 - Convert it back to a list and sort alphabetically
 - Print the final clean fruit list
 '''
+
+fruits = ['apple', 'banana', 'apple', 'orange', 'banana', 'kiwi']
+updated_fruits = set(fruits)
+sorted(updated_fruits)
+print(list(updated_fruits))
