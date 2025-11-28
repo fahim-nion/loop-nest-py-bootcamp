@@ -43,8 +43,11 @@ def calculate_grade(name,marks):
     grade_sheet["grade"] = grade
     
     # print(grade_sheet)
+    return grade_sheet
 
-calculate_grade("Fahim",225)
+res = calculate_grade("Fahim",225)
+
+print(res)
 
 '''
 output:
