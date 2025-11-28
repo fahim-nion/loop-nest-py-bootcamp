@@ -17,3 +17,9 @@ fruits = ['apple', 'banana', 'apple', 'orange', 'banana', 'kiwi']
 updated_fruits = set(fruits)
 sorted(updated_fruits)
 print(list(updated_fruits))
+
+'''
+output:
+
+['orange', 'kiwi', 'banana', 'apple']
+'''
