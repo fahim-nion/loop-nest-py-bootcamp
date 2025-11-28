@@ -45,3 +45,8 @@ def calculate_grade(name,marks):
     print(grade_sheet)
 
 calculate_grade("Fahim",225)
+
+'''
+output:
+{'name': 'Fahim', 'average': 75.0, 'grade': 'B'}
+'''
