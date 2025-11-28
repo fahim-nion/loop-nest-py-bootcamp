@@ -42,7 +42,7 @@ def calculate_grade(name,marks):
     grade_sheet["average"] = avg
     grade_sheet["grade"] = grade
     
-    print(grade_sheet)
+    # print(grade_sheet)
 
 calculate_grade("Fahim",225)
 
