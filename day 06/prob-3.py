@@ -15,3 +15,15 @@ Create a function called `create_profile()` that takes:
 
 ```
 '''
+
+
+def create_profile(name,age,skills):
+    res_dict = {
+        "name" : name,
+        "age" : age,
+        "skills" : skills
+    }
+    
+    return res_dict
+
+print(create_profile("Fahim",23,['Python', 'HTML', 'CSS']))
