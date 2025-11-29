@@ -23,3 +23,9 @@ def even_numbers_in_range(start,end):
 
 print(even_numbers_in_range(2,10))
 
+'''
+Output:
+[2, 4, 6, 8, 10]
+
+'''
+
