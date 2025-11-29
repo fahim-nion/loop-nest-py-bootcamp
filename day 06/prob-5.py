@@ -15,3 +15,10 @@ info = ('Rifat', 22, 'CSE', 'Khulna')
 info = ('Rifat', 22, 'CSE', 'Khulna')
 
 print(info[::2])
+
+
+'''
+Output:
+('Rifat', 'CSE')
+
+'''
